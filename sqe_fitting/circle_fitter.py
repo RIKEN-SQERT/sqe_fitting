@@ -9,7 +9,7 @@ Ref:
 """
 
 def moment_matrix(x: np.ndarray, y: np.ndarray):
-    """Return the matrix of the moments
+    r"""Return the matrix of the moments
     
     The matrix of the moments is defined as
     [[Mzz, Mxz, Myz, Mz],

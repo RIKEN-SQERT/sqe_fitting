@@ -114,7 +114,7 @@ def find_peaks(data, x=1., height=None, distance=None, prominence=None, width=No
     Args:
         data (np.ndarray): Data with peaks
         x (np.ndarray): x-axis of data
-        height (float): Threshold of height normalized baseline noise (e.g. height=10 means that peak larger than 10\sigma from baseline would be detected)
+        height (float): Threshold of height normalized baseline noise (e.g. height=10 means that peak larger than 10 sigma from baseline would be detected)
         distance (float): Minimum distance between the peaks, distance in the same unit of frequency
         prominence (float): Prominence normalized by normalized by baseline_noise
         width: Peak width
